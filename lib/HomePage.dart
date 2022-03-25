@@ -4,8 +4,8 @@ import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:we_learn/subtopicPage.dart';
-import 'package:we_learn/topicPage.dart';
+import 'subtopicPage.dart';
+import 'topicPage.dart';
 import 'assets.dart';
 import 'Text.dart';
 import 'topicPage.dart';
