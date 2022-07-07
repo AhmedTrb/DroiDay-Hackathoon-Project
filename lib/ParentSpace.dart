@@ -1,7 +1,4 @@
-// ignore_for_file: unnecessary_const, prefer_const_literals_to_create_immutables
-
-import 'dart:ffi';
-
+// ignore_for_file: unnecessary_const, prefer_const_literals_to_create_immutables, prefer_typing_uninitialized_variables
 import 'package:flutter/material.dart';
 import 'assets.dart';
 
@@ -40,7 +37,7 @@ class ParentSpace extends StatelessWidget {
                           color: Colors.black.withOpacity(0.25),
                           blurRadius: 4.0,
                           spreadRadius: 4.0,
-                          offset: Offset(
+                          offset: const Offset(
                             -2.0,
                             4.0,
                           ),
@@ -83,7 +80,7 @@ class ParentSpace extends StatelessWidget {
                   child: Text("Choose your child's learning topics",
                       style: subTitleStyle),
                 ),
-                SizedBox(height: 40),
+                const SizedBox(height: 40),
                 const Align(
                   alignment: Alignment.topLeft,
                   child: Text("Current topics",
@@ -103,7 +100,7 @@ class ParentSpace extends StatelessWidget {
                         color: Colors.black.withOpacity(0.25),
                         blurRadius: 4.0,
                         spreadRadius: 4.0,
-                        offset: Offset(
+                        offset: const Offset(
                           -2.0,
                           4.0,
                         ),
@@ -115,12 +112,21 @@ class ParentSpace extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      for (int i = 0; i < avTopics.length; i++)
-                        availableTopic(
-                          topicName: avTopics[i],
-                          textColor: Colors.white,
-                          ico: remove,
-                        ),
+                      availableTopic(
+                        topicName: avTopics[0],
+                        textColor: Colors.white,
+                        ico: remove,
+                      ),
+                      availableTopic(
+                        topicName: avTopics[1],
+                        textColor: Colors.white,
+                        ico: remove,
+                      ),
+                      availableTopic(
+                        topicName: avTopics[2],
+                        textColor: Colors.white,
+                        ico: remove,
+                      ),
                     ],
                   ),
                 ),
@@ -134,17 +140,17 @@ class ParentSpace extends StatelessWidget {
                           color: myDarkgreyColor,
                           fontWeight: FontWeight.w700)),
                 ),
-                SizedBox(height: 15),
+                const SizedBox(height: 15),
                 Container(
                   width: double.infinity,
-                  padding: EdgeInsets.fromLTRB(25, 10, 25, 20),
+                  padding: const EdgeInsets.fromLTRB(25, 10, 25, 20),
                   decoration: BoxDecoration(
                     boxShadow: [
                       BoxShadow(
                         color: Colors.black.withOpacity(0.25),
                         blurRadius: 4.0,
                         spreadRadius: 4.0,
-                        offset: Offset(
+                        offset: const Offset(
                           -2.0,
                           4.0,
                         ),
@@ -156,12 +162,16 @@ class ParentSpace extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      for (int i = 0; i < avTopics.length; i++)
-                        availableTopic(
-                          topicName: unavTopics[i],
-                          textColor: Colors.black,
-                          ico: add,
-                        ),
+                      availableTopic(
+                        topicName: unavTopics[0],
+                        textColor: Colors.black,
+                        ico: add,
+                      ),
+                      availableTopic(
+                        topicName: unavTopics[1],
+                        textColor: Colors.black,
+                        ico: add,
+                      ),
                     ],
                   ),
                 ),

@@ -98,7 +98,7 @@ class LoginPageParent extends StatelessWidget {
                           RaisedButton(
                             onPressed: () {
                               Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) => ParentSpace()));
+                                  builder: (context) => const ParentSpace()));
                             },
                             color: const Color.fromARGB(255, 255, 208, 0),
                             shape: RoundedRectangleBorder(

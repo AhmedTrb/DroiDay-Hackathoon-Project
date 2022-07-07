@@ -7,7 +7,7 @@ List<String> avTopics = [
   "Islamic Golden Age",
   "English"
 ];
-List<String> unavTopics = ["Astronomy"];
+List<String> unavTopics = ["Astronomy", "other thing"];
 
 const subTitleStyle = TextStyle(
     fontFamily: 'rounded',
@@ -129,13 +129,13 @@ class MyBulletList extends StatelessWidget {
           margin: EdgeInsets.only(right: 15),
           height: 5.0,
           width: 5.0,
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: Colors.black,
             shape: BoxShape.circle,
           ),
         ),
         Text(text,
-            style: TextStyle(
+            style: const TextStyle(
                 fontFamily: 'rounded',
                 fontSize: 18,
                 color: Colors.black,

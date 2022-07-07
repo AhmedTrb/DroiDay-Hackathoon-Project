@@ -172,7 +172,7 @@ List<topic> myTopics = [
         ]
       ]),
   topic(
-      title: "Golden age",
+      title: "Islam Golden age",
       topicDes: "the history of the islamic golden age",
       icon: AssetImage('assets/mosque1.png'),
       Goals: [

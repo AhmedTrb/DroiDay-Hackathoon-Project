@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
           Container(
             padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
             decoration: const BoxDecoration(color: Color(0xFFF2F2F2)),
-            child: Expanded(
+            child: Container(
                 child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
