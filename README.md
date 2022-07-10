@@ -1,16 +1,9 @@
-# we_learn
+# we learn
 
-A new Flutter project.
+- This is my first ever App developped using flutter framwork during the DroiDay Hackathoon .
+- An educational app where kids between 6 and 15 can learn new skills thanks to courses that are available within the app and also parents can monitor their kids progress and choose the courses they would like their child to learn
 
-## Getting Started
+- this is my first ever app it's far from perfect but for my first time it's ok considering It took me 6 days
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+(no backend :) )
